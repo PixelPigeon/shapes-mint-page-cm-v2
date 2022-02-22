@@ -10,10 +10,10 @@ export const CTAButton = styled(Button)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(29deg, #34342F 0%,  #44C3A1 100%);
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
+  background: linear-gradient(75deg, rgba(175,46,10,1) 2%, rgba(255,196,0,1) 60%);
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
 `; // add your own styles here
 
 export const MintButton = ({

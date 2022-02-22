@@ -5,8 +5,8 @@ body {
   background: radial-gradient(
     circle,
     rgba(52, 52, 47, 1) 0%,
-    rgba(19, 117, 101, 1) 50%,
-    rgba(62, 180, 148, 1) 100%
+    rgb(230, 143, 14) 50%,
+    rgb(233, 193, 85) 100%
   );
   background-attachment: fixed;
 }
@@ -16,7 +16,7 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-track {
-  background: #44c3a1; /* color of the tracking area */
+  background: #d47318; /* color of the tracking area */
 }
 
 body::-webkit-scrollbar-thumb {

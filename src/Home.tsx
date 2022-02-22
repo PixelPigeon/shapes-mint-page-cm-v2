@@ -24,8 +24,8 @@ import { usePoller } from "./hooks/usePoller";
 //@ts-ignore
 import confetti from "canvas-confetti";
 
-const IMAGE_LINK = "/animation.gif";
-const LOGO_LINK = "/logo.png";
+const IMAGE_LINK = "/photo.png"
+const LOGO_LINK = "/logo.gif";
 
 function throwConfetti(): void {
   confetti({
@@ -40,10 +40,10 @@ const ConnectButton = styled(WalletDialogButton)`
   height: 60px;
   margin-top: 10px;
   margin-bottom: 5px;
-  background: linear-gradient(29deg, #34342f 0%, #44c3a1 100%);
-  color: white;
-  font-size: 16px;
-  font-weight: bold;
+  background: linear-gradient(75deg, rgba(175,46,10,1) 2%, rgba(255,196,0,1) 60%);
+  color: black;
+  font-size: 24px;
+  font-weight: 700;
 `;
 
 const StyledPaper = styled(Paper)`
